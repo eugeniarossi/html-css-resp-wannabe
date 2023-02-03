@@ -127,3 +127,20 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+/*---CORREZIONE LAYOUT DESKTOP---*/
+@media screen and (max-width: 1160px) {
+    .container {
+        max-width: 1160px;
+        width: 100%;
+    }
+}
+
+/*---LAYOUT TABLET---*/
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/*---LAYOUT MOBILE---*/
